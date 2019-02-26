@@ -1,0 +1,22 @@
+{
+    "extends": ["airbnb", "prettier", "prettier/react"],
+    "plugins": ["react", "prettier", "react-hooks"],
+    "rules": {
+      "react/button-has-type": 0,
+      "import/no-absolute-path": 0,
+      "import/no-unresolved": 0,
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [".js", "jsx"]
+        }
+      ],
+      "prettier/prettier": "error",
+      "react-hooks/rules-of-hooks": "error",
+      "consistent-return": 0
+    },
+    "env": {
+      "browser": true
+    },
+    "settings": {}
+  }
